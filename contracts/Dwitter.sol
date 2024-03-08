@@ -48,7 +48,7 @@ pragma solidity ^0.8.19;
     }
 
 /// @title A Decentralised Social Media Platform
-/// @author Mohit Bhat
+/// @author ADARSH
 /// @notice You can use this contract to connect to decentralised social network, share your content to the world in a decentralised way!
 /// @dev Most of the features are implemented keeping note of security concerns
 
@@ -97,7 +97,7 @@ contract Dwitter{
     
     ///@dev NP means not present the default value for status 
     enum accountStatus{NP,Active,Banned,Deactivated}
-    enum cdStatus{NP,Active, Banned, Deleted}//Comment-Dweet status
+    enum cdStatus{NP,Active, Banned, Deleted}        //Comment-Dweet status
     // enum dweetStatus{NP,Active, Banned, Deleted}
     
     mapping(address=>User) private users; //mapping to get user details from user address
